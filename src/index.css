@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Convenience classes */
+@layer base {
+  .mxa-h1 {
+    @apply text-3xl font-medium
+  }
+
+  .mxa-h2 {
+    @apply text-xl font-medium
+  }
+
+  .mxa-section-header {
+    @apply text-xs text-gray-300 uppercase
+  }
+
+  .mxa-text-body {
+    @apply text-base
+  }
+
+  .mxa-text-body-b {
+    @apply text-lg font-medium
+  }
+
+  .mxa-link {
+    @apply text-blue-300 text-lg
+  }
+
+  .mxa-caption {
+    @apply text-gray-400 text-sm
+  }
+
+  .mxa-btn {
+    @apply rounded-2xl bg-teal-100
+  }
+  
+}
