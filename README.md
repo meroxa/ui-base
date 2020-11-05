@@ -1,5 +1,5 @@
 # UI Base
-Meroxa UI base styles based on [Tailwind](https://tailwindcss.com)
+Meroxa UI base styles based on [TailwindCSS](https://tailwindcss.com)
 
 ### Prerequisites
 
