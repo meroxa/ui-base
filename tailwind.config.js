@@ -36,19 +36,7 @@ module.exports = {
         200: '#DE583E'
       }
     },
-    extend: {
-      // Override default tailwind names... 
-      // Unsure if maybe we should
-      // give these custom names vs. 
-      // overriding tailwind names ? 
-      fontSize: {
-        xs: '0.6875rem', // 11px
-        sm: '0.75rem', // 12px
-        base: '0.8125rem', // 13px
-        lg: '0.875rem', // 14px
-        '3xl': '1.75rem', // 28px
-      }
-    },
+    extend: {},
   },
   variants: {},
   plugins: [],
