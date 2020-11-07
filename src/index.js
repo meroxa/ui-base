@@ -1,6 +1,4 @@
 const plugin = require('tailwindcss/plugin')
-const postcss = require('postcss')
-const postcssJs = require('postcss-js')
 
 module.exports = plugin(
   ({ addBase, addComponents, theme }) => {

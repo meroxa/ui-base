@@ -1,22 +1,22 @@
-# UI Base
-Meroxa UI base styles based on [TailwindCSS](https://tailwindcss.com)
+# Meroxa UI Base
+A [TailwindCSS](https://tailwindcss.com) plugin that provides Meroxa's base UI configuration
+
+## Installation
 
 ### Prerequisites
-
-Install dependencies:
-
-```bash
-yarn
+Make sure you have [TailwindCSS](https://tailwindcss.com) installed in your project, then:
 ```
-or
-```bash
-npm install
+yarn add ssh://github.com/meroxa/ui-base#master
 ```
 
-### Building
-```bash
-npx tailwindcss build src/index.css -o dist/index.css # or wherever you want to build it
-```
+### Plug In 🔌
+In your project, in your `tailwind.config.js`:
+```js
+module.exports = {
+  // ...
+  plugins: [
+    require('@meroxa/ui-base')
+  ]
+}
 
-### Example
-There is a sample index.html and its prebuilt index.css dependency in the example directory
+```
