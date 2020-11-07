@@ -1,8 +1,14 @@
 {
   "name": "@meroxa/ui-base",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "license": "MIT",
+  "main": "./lib/index.js",
+  "files": [
+    "/lib",
+    "/dist/fonts"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.0.1",
