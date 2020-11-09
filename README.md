@@ -7,7 +7,7 @@ A [TailwindCSS](https://tailwindcss.com) plugin that provides Meroxa's base UI c
 ### Prerequisites
 Make sure you have [TailwindCSS](https://tailwindcss.com) installed in your project, then:
 ```
-yarn add ssh://github.com/meroxa/ui-base#master
+yarn add ssh://git@github.com:meroxa/ui-base.git
 ```
 
 ### Plug It In 🔌
