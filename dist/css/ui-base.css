@@ -578,13 +578,13 @@ video {
   border-radius: 0.25rem;
   background-color: #134E4A;
   color: white;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #0B525E;
 } .mxa-btn-secondary {
   border-radius: 0.25rem;
   background-color: white;
   color: #111827;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #D6D7D9;
 } .mxa-input {
   border-radius: 0.25rem;
