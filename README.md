@@ -1,4 +1,4 @@
-# Meroxa UI Base 
+# Meroxa UI Base
 
 A [TailwindCSS](https://tailwindcss.com) plugin that provides Meroxa's base UI configuration
 
@@ -21,8 +21,6 @@ module.exports = {
 }
 ```
 
-Alternatively, you could just pull `dist/css/ui-base.css` or `dist/css/ui-base.min.css` into your project. Note that this will include Tailwind with it.
-
 ## Development
 
 ### Plugin Development
@@ -35,10 +33,3 @@ Then within whatever project you want to pull the package into
 ```
 yarn link "@meroxa/ui-base"
 ```
-
-### Building
-If you just want to build the CSS
-```
-yarn run build
-```
-CSS will be outputted to `dist/css`
